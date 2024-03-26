@@ -436,6 +436,9 @@ footer span{
     color: red;
 }
 
+.back-to-top{
+    display: none;
+}
 /* MEDIA QUERIES */
 @media (min-width:931px){
     body{
@@ -665,6 +668,7 @@ footer span{
     }
 
     .back-to-top{
+        display: block;
         position: fixed;
         bottom: 2rem;
         right: 2rem;
