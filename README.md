@@ -1,0 +1,1 @@
+Informações do site retiradas em https://www.python.org

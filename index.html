@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alike&family=Chivo&display=swap" rel="stylesheet">
+</head>
+<body>
+    <input type="checkbox" role="button" aria-label="Close menu" id="close-menu" class="close-menu">
+    <label for="close-menu" title="close menu" class="close-menu-label"></label>
+
+    <aside class="menu">
+       <div> 
+            <div>
+                <h1><a href="#home">Logo</a></h1>
+            </div>
+            <nav class="menu-nav">
+                <ul>
+                    <li><a href="#wpython">What is Python</a></li>
+                    <li><a href="#applications">Applications</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#quotes">Quotes</a></li>
+                    <li><a href="#starting">Starting</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <section id="home" class=" main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-content-text">
+                <h2>Python is powerful and free</h2>
+                <p>Python is a programming language that lets you work more quickly and integrate your systems more effectively.
+                    You can learn to use Python and see almost immediate gains in productivity and lower maintenance costs.
+                </p>
+            </div>
+            <div class='intro-content-image'>
+                <img src="assets/images/python-icon.svg" alt="">
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="wpython" class="white-bg section">
+        <div class="main-content wpython-content">
+            <h2 class="middle-title">What is Python?</h2>
+            <p>
+                Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together.
+            </p>
+            
+            <p>                
+                Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse. The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed.
+            </p>
+            
+            <p>
+                Often, programmers fall in love with Python because of the increased productivity it provides. Since there is no compilation step, the edit-test-debug cycle is incredibly fast. Debugging Python programs is easy: a bug or bad input will never cause a segmentation fault. Instead, when the interpreter discovers an error, it raises an exception.
+                When the program doesn't catch the exception, the interpreter prints a stack trace. A source level debugger allows inspection of local and global variables, evaluation of arbitrary expressions, setting breakpoints, stepping through the code a line at a time, and so on.
+            </p>
+            
+            <p>
+                The debugger is written in Python itself, testifying to Python's introspective power. On the other hand, often the quickest way to debug a program is to add a few print statements to the source: the fast edit-test-debug cycle makes this simple approach very effective.
+            </p>
+        </div>
+    </section>
+
+    <section id="applications" class="section main-bg">
+        <div class="main-content applications-content">
+            <h2 class="middle-title">Applications</h2>
+            <p>Python is used in many application domains. Here's a sampling.</p>
+            <div class="applications-content-list">
+                <div>
+                    <h6>Web Development:</h6>
+                    <ul>
+                        <li>Django</li>
+                        <li>Flask</li>
+                        <li>Pyramid</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h6>Scientific and Numeric:</h6>
+                    <ul>
+                        <li>SciPy</li>
+                        <li>Pandas</li>
+                        <li>IPython</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h6>Desktop GUIs:</h6>
+                    <ul>
+                        <li>Kivy</li>
+                        <li>Qt</li>
+                        <li>wxWidgets</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h6>Software Development:</h6>
+                    <ul>
+                        <li>SCons</li>
+                        <li>Buildbot</li>
+                        <li>Roundup</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h6>Business Applications:</h6>
+                    <ul>
+                        <li>Odoo</li>
+                        <li>Tryton</li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="section white-bg">
+        <div class="main-content gallery-content">
+            <div class="gallery-text">
+                <h2>Gallery</h2>
+                <p>That's some photos examples in your gallery.</p>
+            </div>
+            <div class="gallery-images">
+                <div class="gallery-1">
+                    <picture>
+                        <legend>Web Development</legend>
+                        <img src="assets/images/img1.jpg" alt="Web Development">
+                    </picture>
+                    <picture>
+                        <legend>Scientific and Numeric</legend>
+                        <img src="assets/images/img2.jpg" alt="Scientific and Numeric">
+                    </picture>
+                    <picture>
+                        <legend>Desktop GUIs</legend>
+                        <img src="assets/images/img3.png" alt="Desktop GUIs">
+                    </picture>
+                </div>
+                <div class="gallery-2">
+                    <picture>
+                        <legend>Software Development</legend>
+                        <img src="assets/images/img4.jpg" alt="Software Development">
+                    </picture>
+                    <picture>
+                        <legend>Business Applications</legend>
+                        <img src="assets/images/img5.jpg" alt="Business Applications">
+                    </picture>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id='quotes' class="section main-bg">
+        <div class="main-content quote-content">
+            <h2 class="middle-title">Quotes about Python</h2>
+            <div class="quote">
+                <h4>Youtube</h4>
+                <p>"Python is fast enough for our site and allows us to produce maintainable features in record times, with a minimum of developers," said Cuong Do, Software Architect, YouTube.com.</p>
+            </div>
+            <div class="quote">
+                <h4>Google</h4>
+                <p>
+                    "Python has been an important part of Google since the beginning, and remains so as the system grows and evolves.
+                    Today dozens of Google engineers use Python, and we're looking for more people with skills in this language." said Peter Norvig, director of search quality at Google, Inc.
+                </p>
+            </div>
+            <div class="quote">
+                <h4>Journyx</h4>
+                <p>
+                    "Journyx technology, from the source code of our software to the code that maintains our Web site and ASP sites, is entirely based on Python.
+                    It increases our speed of development and keeps us several steps ahead of competitors while remaining easy to read and use. It's as high level of a language as you can have without running into functionality problems.
+                    I estimate that Python makes our coders 10 times more productive than Java programmers, and 100 times more than C programmers." -- Curt Finch, CEO, Journyx
+                </p>
+            </div>
+            <div class="quote">
+                <h4>IronPort</h4>
+                <p>
+                    "IronPort email gateway appliances are used by the largest corporations and ISPs in the world," said Mark Peek, Sr. Director of Engineering at IronPort Systems.
+                    "Python is a critical ingredient in this high performance system. IronPort's suite of products contains over a million lines of Python. The PSF is an invaluable resource that helps keep Python on the cutting edge." 
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id='starting'class="section white-bg">
+        <div class="main-content starting-content">
+            <div>
+                <h2>Starting</h2>
+                <p>Welcome! Are you completely new to programming? If not then we presume you will be looking for information about why and how to get started with Python.
+                    Fortunately an experienced programmer in any programming language (whatever it may be) can pick up Python very quickly.
+                </p>
+            </div>
+            <div>
+                <h3>Installing</h3>
+                <p>
+                    Installing Python is generally easy, and nowadays many Linux and UNIX distributions include a recent Python.
+                    Even some Windows computers (notably those from HP) now come with Python already installed. If you do need to install Python and aren't confident about the task you can find a few notes on the BeginnersGuide/Download wiki page, but installation is unremarkable on most platforms.
+                </p>
+            </div>
+            <div>
+                <h3>Learning</h3>
+                <p>
+                    Before getting started, you may want to find out which IDEs and text editors are tailored to make Python editing easy, browse the list of introductory books, or look at code samples that you might find helpful.
+                </p>
+                <p>
+                    There is a list of tutorials suitable for experienced programmers on the BeginnersGuide/Tutorials page. There is also a list of resources in other languages which might be useful if English is not your first language.
+                </p>
+    	        <p>
+                    The online documentation is your first port of call for definitive information. There is a fairly brief tutorial that gives you basic information about the language and gets you started. You can follow this by looking at the library reference for a full description of Python's many libraries and the language reference for a complete (though somewhat dry) explanation of Python's syntax. If you are looking for common Python recipes and patterns, you can browse the ActiveState Python Cookbook
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section main-bg">
+        <div class="main-content contact-content">
+            <div class="contact-text">
+                <div>
+                    <h2>Contact</h2>
+                    <p>Do you want to contribute or need to contact The Python Software Foundation?</p>
+                    <p>Please, fill in this form.</p>
+                </div>
+                <div>
+                    <img src="assets/images/contact.svg" alt="Contact">
+                </div>
+            </div>
+            <div>
+                <form action='' target="_self" >
+                    <fieldset class="form">
+                        <legend>Contact me</legend>
+                        <div class="form-grid">
+                            <label for="first-name">First Name</label>
+                            <input type="text" id="first-name" name="first-name" placeholder="Your name">
+                        </div>
+                        <div class="form-grid">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" id="last-name" name="last-name" placeholder="Your last name">
+                        </div>
+                        <div class="form-grid">
+                            <label for="email">E-mail</label>
+                            <input type="text" id="email" name="email" placeholder="Your e-mail">
+                        </div>
+                        <div class="form-grid">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" cols="80" rows="20" placeholder="Your message"></textarea>
+                        </div>
+                    </fieldset>
+
+                    <button type="submit" class="button-form">Send message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <p>Feito com <span>❤</span> por Lucas Aguiar</p>
+        </div>
+    </footer>
+
+    <a class="back-to-top" href="#"><div><span>➧</span></div></a>
+</body>
+</html>
